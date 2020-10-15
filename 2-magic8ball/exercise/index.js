@@ -13,16 +13,12 @@ var sentences = [
   "Maybe try next time.",
   "It's better to try and fail, than not to try",
   "JavaScript can do anything!",
-  "Ask agaian",
+  "Ask again",
   "No it won't happen.",
   "I love the idea!"
 ]
 
-// Uncomment below line, and find & assign the answer element somehow!
-// Have a look at https://developer.mozilla.org/en-US/docs/Web/API/Element/querySelector
-var answer = document.body.querySelector("#answer");
-
-    function getRandomSentence() {
+function getRandomSentence() {
   // Use the getRandomInt function here to get a number between 0 and the length - 1 of the `sentences` array.
   // var index =
 
@@ -42,6 +38,10 @@ function handleClick() {
 }
 
 window.onload = () => {
+  // Uncomment below line, and find & assign the answer element somehow!
+  // Have a look at https://developer.mozilla.org/en-US/docs/Web/API/Element/querySelector
+  // var answer = ...;
+
   // Uncomment below line, and find & assign the button element somehow!
   // var button = ???
 

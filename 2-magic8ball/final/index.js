@@ -15,12 +15,12 @@ function getRandomSentence() {
 }
 
 function setAnswer(sentence) {
-  var answer = document.querySelector("#answer");
   answer.textContent = sentence
 }
 
 
 window.onload = () => {
+  var answer = document.querySelector("#answer");
   var button = document.querySelector("#ask-button");
   button.onclick = () => setAnswer(getRandomSentence());
 }
